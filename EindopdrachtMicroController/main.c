@@ -59,8 +59,19 @@ int main(void)
 
 	clear();	
 	
-	show_animation();
-	clear();
-	reverse_animation();
+	for (;;)
+	{
+		show_first_animation();
+		wait(20);
+		clear();
+		wait(20);
+		show_second_animation();
+		wait(20);
+		clear();
+		wait(20);
+		reverse_second_animation();
+		wait(20);
+		clear();
+	}
 }
 

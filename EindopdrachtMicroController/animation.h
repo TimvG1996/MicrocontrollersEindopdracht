@@ -9,8 +9,9 @@
 #ifndef ANIMATION_H_
 #define ANIMATION_H_
 
-void show_animation(void);
-void reverse_animation(void);
+void show_first_animation(void);
+void show_second_animation(void);
+void reverse_second_animation(void);
 void clear(void);
 
 
